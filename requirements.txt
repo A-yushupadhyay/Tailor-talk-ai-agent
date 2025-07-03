@@ -1,22 +1,18 @@
-#  LLM + LangChain
-openai==1.30.1
-langchain==0.2.0
-langchain-community==0.2.0
-tiktoken==0.7.0
+#  Backend (FastAPI)
+fastapi==0.111.0
+uvicorn==0.29.0
+python-multipart==0.0.9
 
-#  Google Calendar API
+#  Google Calendar
 google-api-python-client==2.127.0
 google-auth==2.29.0
 google-auth-oauthlib==1.2.0
 
-#  Web server
-fastapi==0.111.0
-uvicorn==0.29.0
-
 #  Frontend
 streamlit==1.35.0
 
-#  CORS support
-python-multipart==0.0.9
+#  Secrets
+python-dotenv==1.0.1
 
-
+#  Gemini AI
+google-generativeai==0.8.5
