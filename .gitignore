@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# API keys
+.env
+tailortalkbot-464805-9de8995c1c5b.json
+
+# OS files
+.DS_Store
