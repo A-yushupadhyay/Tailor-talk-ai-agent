@@ -10,7 +10,7 @@ st.write("Your AI-powered calendar assistant. Ask me to schedule a meeting!")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-backend_url = "http://localhost:8000/chat"  #  Replace with live URL on deployment
+backend_url = "https://tailor-talk-ai-agent.onrender.com/chat"  #  Replace with live URL on deployment
 
 #  Chat input box
 user_input = st.chat_input("Say something like 'Book a meeting tomorrow at 4PM'...")
