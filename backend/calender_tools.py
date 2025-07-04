@@ -13,7 +13,7 @@ SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
 
 # Set your calendar ID (usually your own Gmail or primary)
-CALENDAR_ID = "primary"  # or use full email if using a test calendar
+CALENDAR_ID = "puskaru202@gmail.com"  # or use full email if using a test calendar
 
 #Load credentials from env var (no file needed)
 encoded = os.getenv("GOOGLE_CREDS_BASE64")
